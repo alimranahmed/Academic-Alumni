@@ -1,0 +1,52 @@
+/*body{overflow: hidden}*/
+
+.logo
+{
+    height: 160%;
+    width: 20%;
+}
+
+.full-container{ background: url("../images/bg.jpg") repeat; }
+
+.user-img
+{
+    height:180px;
+    width: 180px;
+}
+
+.wall-cover
+{
+    background: url("../images/bg_wall_cover.jpg") repeat;
+    color: white;
+}
+
+.side-navbar{ border-right: 1px solid black; }
+
+.side-navbar ul{ list-style: none;}
+
+.side-navbar ul li:hover{ background-color: #66FF66;}
+
+.side-navbar ul li a{ text-decoration: none; }
+
+.timeline-header
+{
+    background-color: #66FF66;
+    text-align: center;
+    margin-top: 0px;
+    padding-top:1px;
+}
+
+.poster-image
+{
+    height: 100px;
+    width: 100px;
+}
+
+.commenter-image
+{
+    height: 80px;
+    width: 80px;
+}
+textarea{resize: none;}
+
+#about-edit, #professional-edit, #project-edit, #career-edit{display: none;}

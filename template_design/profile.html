@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/myStyle.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row wall-cover">
+            <div class="col-md-2">
+                <img class="img-circle user-img" src="images/user.jpg">
+            </div>
+            <div class="col-md-5">
+                <h2>User</h2>
+                <h3>B. Sc. in CSE</h3>
+            </div>
+        </div><!---Wall Cover-->
+        <div class="row">
+            <div class="col-md-2">
+                <div class="side-navbar">
+                    <ul>
+                        <li><a href="wall.html">Timeline</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="network.html">Network</a></li>
+                        <li><a href="group.html">Groups</a></li>
+                    </ul>
+                </div>
+            </div><!---Right sidebar---->
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="panel panel-info">
+                      <div class="panel-heading">About Me<a href="#" id="about-edit-button" class=" pull-right glyphicon glyphicon-edit"></a></div>
+                      <div class="panel-body">
+                        <p id='about-normal'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                          <form id='about-edit' class="form-horizontal" role="form">
+                              <textarea class="form-control" rows="3"></textarea>
+                              <div class="form-group">
+                                <div class="col-sm-10">
+                                  <button type="submit" class="btn btn-info">Update</button>
+                                </div>
+                              </div>
+                          </form>
+                      </div>
+                    </div><!---About me---->
+                    <div class="panel panel-info">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">Professional Skills<a id="professional-edit-button" href="#" class=" pull-right glyphicon glyphicon-edit"></a></h3>
+                      </div>
+                      <div class="panel-body">
+                        <p id="professional-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                          <form id='professional-edit' class="form-horizontal" role="form">
+                              <textarea class="form-control" rows="3"></textarea>
+                              <div class="form-group">
+                                <div class="col-sm-10">
+                                  <button type="submit" class="btn btn-info">Update</button>
+                                </div>
+                              </div>
+                          </form>
+                      </div>
+                    </div><!---Professional Skills---->
+                    <div class="panel panel-info">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">Educational Qualification<a href="#" class=" pull-right glyphicon glyphicon-edit"></a></h3>
+                      </div>
+                      <div class="panel-body">
+                        <table class="table table-hover">
+                            <thead>
+                                <th>Exam Title</th>
+                                <th>Group/Department</th>
+                                <th>Institute</th>
+                                <th>CGPA</th>
+                                <th>Pass Year</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>B. Sc.</td>
+                                    <td>Computer Science & Engineering</td>
+                                    <td>Daffodil International University</td>
+                                    <td>3.50</td>
+                                    <td>2014</td>
+                                </tr>
+                                <tr>
+                                    <td>B. Sc.</td>
+                                    <td>Computer Science & Engineering</td>
+                                    <td>Daffodil International University</td>
+                                    <td>3.50</td>
+                                    <td>2014</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                      </div>
+                    </div><!---Educational Summery---->
+                    <div class="panel panel-info">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">Projects<a id="project-edit-button" href="#" class=" pull-right glyphicon glyphicon-edit"></a></h3>
+                      </div>
+                      <div class="panel-body">
+                        <p id="project-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                          <form id='project-edit' class="form-horizontal" role="form">
+                              <textarea class="form-control" rows="3"></textarea>
+                              <div class="form-group">
+                                <div class="col-sm-10">
+                                  <button type="submit" class="btn btn-info">Update</button>
+                                </div>
+                              </div>
+                          </form>
+                      </div>
+                    </div><!---Projects---->
+                    <div class="panel panel-info">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">Career Summery<a id="career-edit-button" href="#" class=" pull-right glyphicon glyphicon-edit"></a></h3>
+                      </div>
+                      <div class="panel-body">
+                        <p id="career-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      <form id='career-edit' class="form-horizontal" role="form">
+                          <textarea class="form-control" rows="3"></textarea>
+                          <div class="form-group">
+                            <div class="col-sm-10">
+                              <button type="submit" class="btn btn-info">Update</button>
+                            </div>
+                          </div>
+                      </form>
+                      </div>
+                    </div><!---Career Summery---->
+                    <div class="panel panel-info">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">Personal Information<a href="#" class=" pull-right glyphicon glyphicon-edit"></a></h3>
+                      </div>
+                      <div class="panel-body">
+                        <table class="table table-hover">
+                            <tbody>
+                                <tr>
+                                    <th>Name</th>
+                                    <td>Mr. User Miya</td>
+                                </tr>
+                                <tr>
+                                    <th>Father's Name</th>
+                                    <td>Mr. User Miya</td>
+                                </tr>
+                                <tr>
+                                    <th>Mother's Name</th>
+                                    <td>Mr. User Miya</td>
+                                </tr>
+                                <tr>
+                                    <th>Gander</th>
+                                    <td>Male</td>
+                                </tr>
+                                <tr>
+                                    <th>Date of Birth</th>
+                                    <td>12/12/12</td>
+                                </tr>
+                                <tr>
+                                    <th>Nationality</th>
+                                    <td>Bangladeshi</td>
+                                </tr>
+                                <tr>
+                                    <th>Religion</th>
+                                    <td>Islam</td>
+                                </tr>
+                                <tr>
+                                    <th>Merital Status</th>
+                                    <td>Married</td>
+                                </tr>
+                                <tr>
+                                    <th>Present Address</th>
+                                    <td>Dhaka</td>
+                                </tr>
+                                <tr>
+                                    <th>Parmament Address</th>
+                                    <td>Dhaka</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                      </div>
+                    </div><!---Personal Information---->
+                </div>
+            </div><!----Profile content--->
+            <div col-md-2>
+            </div><!---Empty right side--->
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/myScript.js"></script>
+  </body>
+</html>
