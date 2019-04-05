@@ -12,5 +12,5 @@ A web application that can be maintain as a **social web** for alumni of an acad
 2. Codeigniter(PHP framework) 2.* was used to develop the web application
 3. MySql used for database. 
 
-##Limitation
+## Limitation
 1. Chat with friend is not available in the system
